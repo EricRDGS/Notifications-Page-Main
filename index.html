@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications Page</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="page">
+        <div class="title-notifications">
+            <h2>Notifications <span id="notifications"></span></h2>
+            <p id="mark">Mark all as read</p>
+        </div>
+        <div class="notifications">
+            <div class="notification new">
+                <div class="profile">
+                    <img src="src/images/avatar-mark-webber.webp" alt="Mark Webber">
+                    <div class="info-date">
+                        <p><a href="#mark-webber">Mark Webber</a> reacted to your recent post<a href="#my-first"> My first tournament today!</a><span class="new-notification" id="new-span"></span></p>
+                        <span>1m ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="notification new">
+                <div class="profile">
+                    <img src="src/images/avatar-angela-gray.webp" alt="Angela Gray">
+                    <div class="info-date">
+                        <p><a href="#angela-gray">Angela Gray</a> followed you <span class="new-notification" id="new-span"></span></p>
+                        <span>5m ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="notification new">
+                <div class="profile">
+                    <img src="src/images/avatar-jacob-thompson.webp" alt="Jacob">
+                    <div class="info-date">
+                        <p><a href="#jacob-thompson">Jacob Thompson</a> has joined your group <a href="#chess-club">Chess Club</a><span class="new-notification" id="new-span"></span></p>
+                        <span>1 day ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="notification new">
+                <div class="profile">
+                    <img src="src/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin">
+                    <div class="info-date">
+                        <p><a href="#rizky-hasanuddin">Rizky Hasanuddin</a> sent you a private message<span class="new-notification" id="new-span"></span></p>
+                        <span>5 days ago</span>
+                    </div>
+                </div>  
+                <div class="message">
+                    <p>Hello, thanks for setting up the Chess Club.I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+                </div>
+            </div>
+            <div class="notification new" id="kimberly-smith">
+                <div class="profile">
+                    <img src="src/images/avatar-kimberly-smith.webp" alt="Kimberly Smith">
+                    <div class="info-date">
+                        <p><a href="#kimberly-smith">Kimberly Smith</a> commented on your picture<span class="new-notification" id="new-span"></span></p>
+                    </div>
+                </div>
+                <div class="picture">
+                    <a href="#image-chess"><img src="src/images/image-chess.webp" alt="Image Chess"></a>
+                </div>
+            </div>
+            <div class="notification new">
+                <div class="profile">
+                    <img src="src/images/avatar-nathan-peterson.webp" alt="Nathan Peterson">
+                    <div class="info-date">
+                        <p><a href="#nathan-peterson">Nathan Peterson</a> reacted to your recent post <a href="#5-end-game-strategies-to-incresase-your-win-rate">5 end-game strategies to increase your win rate</a><span class="new-notification" id="new-span"></span></p>
+                        <span>2 weeks ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="notification new">
+                <div class="profile">
+                    <img src="src/images/avatar-anna-kim.webp" alt="Anna Kim">
+                    <div class="info-date">
+                        <p><a href="#anna-kim">Anna Kim</a> left the group <a href="#chess-club">Chess Club</a><span class="new-notification" id="new-span"></span></p>
+                        <span>2 weeks ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>

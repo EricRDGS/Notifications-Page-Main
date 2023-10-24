@@ -1,0 +1,104 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--neutral-very-light-grayish);
+}
+
+.page{
+    width: 55%;
+    margin: 2rem 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px var(--neutral-light-grayish1), -1px -1px 10px var(--neutral-light-grayish1);
+}
+
+.page .title-notifications{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+}
+
+.page .title-notifications span{
+    background-color: var(--primary-blue);
+    color: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.page .title-notifications p{
+    color: var(--neutral-dark-grayish);
+}
+
+.page .title-notifications p:hover{
+    color: var(--primary-blue);
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.page .notifications{
+    margin: 0 2rem;
+}
+
+.page .notifications .notification{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+}
+
+.page .notifications #kimberly-smith{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page .notifications #kimberly-smith img{
+    height: 50px;
+}
+
+.page .notifications .notification.new{
+    background-color: var(--neutral-light-grayish1);
+}
+
+.page .notifications .notification .profile{
+    display: flex;
+    gap: 1rem;
+}
+
+.page .notifications .notification .profile img{
+    height: 50px;
+}
+
+.page .notifications .notification .info-date p, .page .notifications .notification .info-date span{
+    color: var(--neutral-dark-grayish);
+}
+
+.page .notifications .notification .info-date .new-notification{
+    display: inline-block;
+    border-radius: 100%;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary-red);
+}
+
+.page .notifications .notification .message{
+    margin: 1rem 0 0 4rem ;
+    padding: 1rem .5rem;
+    border-radius: 10px;
+    background-color: var(--neutral-light-grayish2);
+}
+
+a{
+    color: var(--neutral-very-dark);
+    font-weight: 800;
+}
+
+a:hover{
+    color: var(--primary-blue);
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
